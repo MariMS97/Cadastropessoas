@@ -1,5 +1,5 @@
 
-class Gerente extends Funcionario {
+public class Gerente extends Funcionario {
     String area;
 
     public Gerente(String nome, Data nascimento, float salario, String area) {
