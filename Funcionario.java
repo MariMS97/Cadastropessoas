@@ -1,5 +1,5 @@
 
-class Funcionario extends Pessoa {
+public class Funcionario extends Pessoa {
     float salario;
     public Funcionario(String nome, Data nascimento, float salario) {
         super(nome, nascimento);
